@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    position: fixed;
+    background-color: beige;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Permanent Marker', cursive;
+   
+}
+a{
+    text-decoration: none;
+    color: brown;
+    text-shadow: 2px 2px 2px gray;
+}
+/* A pseudo-class is used to define a special state of an element.for eg :it can be used to:
+Style an element when a user mouses over it, Style visited and unvisited links differently,Style an element when it gets focus */
+
+ /* pseudo class
+ selector:pseudo-class{
+    property:value;
+ }
+ */
+ .links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .profile{
+    width: 500px;
+    border-radius: 50%;
+    margin-top: 50px ;
+ }
+ #welcome
+ {
+    /* linear gradient */
+    background: linear-gradient(blue,rgb(127, 210, 127));
+    color: rebeccapurple;
+ }
+h1{
+    font-size: 40px;
+    font-family: 'Lilita One', cursive;
+}
+#name
+{
+    font-size: 50px;
+    font-family: 'Playball', cursive;
+    line-height: 1.2;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Tangerine', cursive;
+}
+#bio{
+    padding: 50px;
+}
+.line{
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: auto;
+}
+p{
+    font-size: 20px;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+    color: blue;
+}
+#writings a:hover{
+    color: green;
+}
+#contact{
+    background-color: crimson;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 20px;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: wheat;
+}
+
+.contact_1 h3{
+    display: inline;
+}
